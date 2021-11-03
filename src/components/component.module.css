@@ -1,0 +1,85 @@
+.Footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 1750%;
+  align-self: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: center;
+}
+.IconGroup {
+  width: 166px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.link {
+  display: contents;
+}
+.icon {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-left: 0px;
+  text-decoration: none;
+}
+.icon:hover {
+  fill: #21edff;
+  width: 26px;
+  height: 26px;
+}
+.link1 {
+  display: contents;
+}
+.icon2 {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.icon2:hover {
+  fill: #21edff;
+  width: 26px;
+  height: 26px;
+}
+.link2 {
+  display: contents;
+}
+.icon4 {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.icon4:hover {
+  fill: #21edff;
+  width: 26px;
+  height: 26px;
+}
+.rootClassName {
+  background-color: #202020;
+}
+@media(max-width: 767px) {
+  .Footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .Footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+}
